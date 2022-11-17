@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "webpack": "webpack --mode development --watch",
-    "build": "webpack --config webpack.config.js"
+    "webpack": "webpack --mode development --watch"
+
   },
   "keywords": [],
   "author": "",

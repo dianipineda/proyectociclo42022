@@ -1,5 +1,4 @@
 module.exports = {
-  mode: "production",
   entry: "./src/app/index.js",
   output: {
     path: __dirname + "/src/public",
