@@ -1,12 +1,9 @@
-# fly.toml file generated for proyectoinvitados on 2022-11-16T16:24:05-05:00
+# fly.toml file generated for app-invitados on 2022-11-18T16:19:04-05:00
 
-app = "proyectoinvitados"
+app = "app-invitados"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
-
-[build]
-  builder = ""paketobuildpacks/builder:base"
 
 [env]
   PORT = "8080"
@@ -14,7 +11,6 @@ processes = []
 [experimental]
   allowed_public_ports = []
   auto_rollback = true
-  cmd = "npm start"
 
 [[services]]
   http_checks = []

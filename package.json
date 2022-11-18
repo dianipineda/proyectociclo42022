@@ -1,11 +1,12 @@
 {
-  "name": "proyectoinvitados",
+  "name": "app-invitados",
   "version": "1.0.0",
   "description": "proyecto final ciclo 4 MINTIC",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "webpack": "webpack --mode development --watch"
+    "webpack": "webpack --mode development --watch",
+    "start": "node src/index.js"
 
   },
   "keywords": [],
